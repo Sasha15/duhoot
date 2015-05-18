@@ -43,7 +43,6 @@ strong, b{
 }
 body{
 	font: 14px/1.4 "Gotham", Arial, sans-serif;
-	min-width: 1080px;
 	color: #566375;
 }
 h2{
@@ -101,11 +100,8 @@ button:focus,
 .du-form-row+.du-form-row{
 	margin-top: 20px;
 }
-section{
-	min-width: 1020px;
-}
 .ba-container{
-	width: 1020px;
+	max-width: 1020px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -670,13 +666,14 @@ select{
 	font-size: 18px;
 }
 .du-load{
-	margin:40px 420px 0;
+		margin:40px 0;
 }
 .du-load a{
-	display: inline-block;
+	display: inline;
 	text-decoration: none;
 	color: #566375;
 	font-size: 20px;
+
 }
 
 /*Offer*/
@@ -817,3 +814,142 @@ select{
 	position: relative;
 }
 
+
+/*Footer*/
+.du-footer{
+	background: url('../img/footer-bg.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	padding:38px 0;
+}
+.du-footer h2{
+	color:#fff;
+	font-weight: 600;
+	font: 24px "Gotham",Arial, sans-serif;
+}
+.du-footer h3{
+	color:#fff;
+	font-weight: 600;
+	padding-bottom: 30px;
+	text-decoration: underline;
+	font: 16px "Gotham",Arial,sans-serif;
+
+}
+.du-footer .fa{
+	color:#fff;
+	font-size: 30px;
+	padding-right: 23px;
+}
+.du-footer .fa-envelope-o{
+	color:#fff;
+	font-size: 18px;
+	position:absolute;
+	top:20px;
+	left: 25px;
+}
+.du-footer ul li{
+	font-weight: 400;
+	line-height: 1.3;
+	color:#ccc;
+	font:14px "Gotham", Arial, sans-serif;
+}
+
+.du-footer .fa-facebook:hover{
+	color: rgba(0, 159, 220, 0.85);
+}
+.du-footer .fa-twitter:hover{
+	color: rgba(0, 159, 220, 0.85);
+}
+.du-footer .fa-google-plus:hover{
+	color: rgba(0, 159, 220, 0.85);
+}
+.du-footer .fa-youtube:hover{
+	color: rgba(0, 159, 220, 0.85);
+}
+
+.du-footer p{
+	color:#ccc;
+	font:14px "Gotham", Arial, sans-serif;
+	font-weight: 400;
+	padding-top: 47px;
+}
+
+.du-footer input[type="submit"],
+.du-footer input[type="button"],
+.du-footer button,
+.du-footer .du-button{
+	border: none;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 13px;
+	position: absolute;
+	right: 10px;
+	top:5px;
+	color: #ffffff;
+	background-color: #e94e38;
+	text-shadow: 0 1px 1px rgba(0,0,1,.15);
+	font-weight: 600;
+	-moz-box-shadow: 0 2px 0 #c1402e;
+	-webkit-box-shadow: 0 2px 0 #c1402e;
+	box-shadow: 0 2px 0 #c1402e;
+}
+.du-footer-text{
+	display: inline-block;
+	padding:0;
+	position: relative;
+	border: 1px solid rgba(255, 255, 255, .2);
+	background-color: rgba(255, 255, 255, .1);
+	color: #fff;
+	border-radius: 30px;
+
+
+}
+.du-footer input[type="submit"]:hover,
+.du-footer input[type="button"]:hover,
+.du-footer button:hover,
+.du-footer .du-button:hover{
+	background-color: #ff543d;
+
+}
+.du-footer input[type="submit"]:active,
+.du-footer input[type="button"]:active,
+.du-footer button:active,
+.du-footer .du-button:active{
+	position: absolute;
+	top: 6px;
+	-moz-box-shadow: 0 1px 0 #c1402e;
+	-webkit-box-shadow: 0 1px 0 #c1402e;
+	box-shadow: 0 1px 0 #c1402e;
+}
+.du-footer form{
+	display: inline;
+}
+.du-footer input[type="email"]{
+	padding-left:55px;
+	padding-right:221px;
+	background-color: rgba(255, 255, 255, .01);
+	color: #fff;
+	border:none;
+
+}
+
+.du-footer input[type="email"]:focus{
+	border-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .3);
+}
+.du-footer ::-webkit-input-placeholder {
+	color: #fff;
+}
+.du-footer:-moz-placeholder {
+	color: #fff;
+}
+.du-footer::-moz-placeholder {
+	color: #fff;
+}
+.du-footer:-ms-input-placeholder {
+	color: #fff;
+}
+.line{
+	border-bottom:2px solid #46423e;
+	margin:55px 0 40px;
+}

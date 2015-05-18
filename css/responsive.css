@@ -1,0 +1,83 @@
+/*
+$breakpoint-small: 480px; // For widths more than 480px
+$breakpoint-medium: 768px; // For width more than 768px
+$breakpoint-large: 960px; // For width more than 960px
+$breakpoint-xlarge: 1220px; // For width more than 1220px
+*/
+@media (min-width: 480px) {
+
+}
+@media (max-width: 479px) {
+	.du-offer .du-filter-type:after{
+		position:absolute;
+		top: 105%;
+		left:50%;
+		content: "";
+		width:2px;
+		height: 95px;
+		background-color: #e2dee0;
+	}
+	.du-footer-text{
+		width:90%
+	}
+	.du-footer input[type="email"]{
+		padding-left:55px;
+		padding-right:30px;
+	}
+	.du-footer ::-webkit-input-placeholder{
+		color:rgba(255, 255, 255, .01);
+	}
+	.du-footer ::-webkit-input-placeholder{
+		color:rgba(255, 255, 255, .01);
+	}
+	.du-footer ::-webkit-input-placeholder{
+		color:rgba(255, 255, 255, .01);
+	}
+	.du-footer ::-webkit-input-placeholder{
+		color:rgba(255, 255, 255, .01);
+	}
+}
+
+@media (min-width: 768px) {
+
+}
+@media (max-width: 768px) {
+	.du-info-add{
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 960px) {
+
+}
+@media (max-width: 959px) {
+	.du-menu{
+		display: none;
+	}
+	.du-header{
+		background: #fff;
+	}
+	.du-login{
+		margin-right: -20px;
+	}
+	.du-filter-row{
+		padding: 10px 0;
+	}
+	.du-filter-items,
+	.du-filter-row .du-filter-type,
+	.du-filter-location{
+		text-align: center;
+		height: auto;
+		line-height: normal;
+		padding: 10px 0;
+	}
+	.du-item{
+		margin-bottom: 30px;
+	}
+	.du-items-row .ba-grid + .ba-grid{
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 1220px) {
+
+}
